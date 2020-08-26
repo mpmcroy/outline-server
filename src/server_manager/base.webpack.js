@@ -34,6 +34,7 @@ exports.makeConfig = (options) => {
     // Run the dev server with `yarn workspace outline-manager run webpack-dev-server --open`
     devServer: {
       overlay: true,
+      host: '0.0.0.0',
     },
     output: {path: OUTPUT_BASE, filename: 'main.js'},
     module: {
