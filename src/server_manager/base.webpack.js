@@ -35,6 +35,7 @@ exports.makeConfig = (options) => {
     devServer: {
       overlay: true,
       host: '0.0.0.0',
+      disableHostCheck: true,
     },
     output: {path: OUTPUT_BASE, filename: 'main.js'},
     module: {
