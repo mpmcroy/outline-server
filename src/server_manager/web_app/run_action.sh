@@ -20,4 +20,4 @@ rm -rf $BUILD_DIR/server_manager/web_app
 
 do_action server_manager/web_app/build_install_script
 
-yarn workspace outline-manager run webpack-dev-server --config=browser.webpack.js --open
+yarn workspace outline-manager run webpack-dev-server --config=browser.webpack.js
